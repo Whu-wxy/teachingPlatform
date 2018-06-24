@@ -11,7 +11,6 @@ int main(int argc, char *argv[])
         qssFile.open(QFile::ReadOnly);
         QString qss;
         if(qssFile.isOpen())
-
         {
 
             qss = QLatin1String(qssFile.readAll());

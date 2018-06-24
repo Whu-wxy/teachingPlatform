@@ -1,0 +1,86 @@
+QDialog {
+        border: 1px solid rgb(50, 50, 50);
+        background: rgb(50, 50, 50);
+}
+QHeaderView{
+        border: none;
+        border-bottom: 3px solid rgb(0, 160, 230);
+        background: rgb(57, 58, 60);
+        min-height: 30px;
+}
+QHeaderView::section:horizontal {
+        border: none;
+        color: white;
+        background: transparent;
+        padding-left: 5px;
+}
+QHeaderView::section:horizontal:hover {
+        background: rgb(0, 160, 230);
+}
+QHeaderView::section:horizontal:pressed {
+        background: rgb(0, 180, 255);
+}
+QTableView {
+        border: 1px solid rgb(45, 45, 45);
+        background: rgb(57, 58, 60);
+        gridline-color: rgb(60, 60, 60);
+}
+QTableView::item {
+        padding-left: 5px;
+        padding-right: 5px;
+        border: none;
+        background: rgb(72, 72, 74);
+        border-right: 1px solid rgb(45, 45, 45);
+        border-bottom: 1px solid rgb(45, 45, 45);
+}
+QTableView::item:selected {
+        background: rgba(255, 255, 255, 40);
+}
+QTableView::item:selected:!active {
+        color: white;
+}
+QTableView::indicator {
+        width: 20px;
+        height: 20px;
+}
+QCheckBox{
+        spacing: 5px;
+}
+QCheckBox:enabled{
+        color: rgb(175, 175, 175);
+}
+QCheckBox:enabled:hover{
+        color: rgb(200, 200, 200);
+}
+QCheckBox:!enabled{
+        color: rgb(155, 155, 155);
+}
+QCheckBox::indicator {
+        width: 20px;
+        height: 20px;
+}
+QTextEdit {
+        border: 1px solid rgb(45, 45, 45);
+        color: rgb(175, 175, 175);
+        background: rgb(57, 58, 60);
+}
+QPushButton{
+        border-radius: 4px;
+        border: none;
+        width: 75px;
+        height: 25px;
+}
+QPushButton:enabled {
+        background: rgb(68, 69, 73);
+        color: white;
+}
+QPushButton:!enabled {
+        background: rgb(100, 100, 100);
+        color: rgb(200, 200, 200);
+}
+QPushButton:enabled:hover{
+        background: rgb(85, 85, 85);
+}
+QPushButton:enabled:pressed{
+        background: rgb(80, 80, 80);
+}
